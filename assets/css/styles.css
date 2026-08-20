@@ -4,9 +4,9 @@
 
 :root {
   /* Brand palette */
-  --color-primary: #2d6a4f;
-  --color-primary-dark: #1b4332;
-  --color-primary-light: #40916c;
+  --color-primary: #0e5c34;
+  --color-primary-dark: #094226;
+  --color-primary-light: #1f8a52;
   --color-accent: #e2a13a;
   --color-accent-dark: #c4841f;
   --color-ink: #14201d;
@@ -229,7 +229,10 @@ section {
   object-fit: contain;
 }
 .footer-brand .brand-logo {
-  height: 56px;
+  height: 48px;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
 }
 @media (max-width: 480px) {
   .brand-logo { height: 40px; }
@@ -516,7 +519,7 @@ section {
   width: 54px;
   height: 54px;
   border-radius: 14px;
-  background: rgba(45,106,79,0.1);
+  background: rgba(14,92,52,0.1);
   color: var(--color-primary);
   display: grid;
   place-items: center;
@@ -775,9 +778,9 @@ section {
   font-weight: 700;
   padding: 6px 12px;
   border-radius: 8px;
-  background: rgba(45,106,79,0.08);
+  background: rgba(14,92,52,0.08);
   color: var(--color-primary-dark);
-  border: 1px solid rgba(45,106,79,0.15);
+  border: 1px solid rgba(14,92,52,0.15);
 }
 
 .dealer-actions {
@@ -817,7 +820,7 @@ section {
   font-weight: 600;
   padding: 4px 10px;
   border-radius: 999px;
-  background: rgba(45,106,79,0.1);
+  background: rgba(14,92,52,0.1);
   color: var(--color-primary);
 }
 
@@ -872,7 +875,7 @@ section {
 .field textarea:focus {
   outline: none;
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 4px rgba(45,106,79,0.12);
+  box-shadow: 0 0 0 4px rgba(14,92,52,0.12);
 }
 .field textarea { resize: vertical; min-height: 130px; }
 
@@ -886,8 +889,8 @@ section {
   display: none;
   align-items: center;
   gap: 12px;
-  background: rgba(45,106,79,0.08);
-  border: 1px solid rgba(45,106,79,0.25);
+  background: rgba(14,92,52,0.08);
+  border: 1px solid rgba(14,92,52,0.25);
   color: var(--color-primary-dark);
   padding: 16px 20px;
   border-radius: var(--radius-sm);
