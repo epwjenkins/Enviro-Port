@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.requestAnimationFrame(step);
   }
 
-  /* Contact form (static demo — no backend wired up) */
+  /* Contact form (static demo - no backend wired up) */
   var contactForm = document.querySelector("#contact-form");
   if (contactForm) {
     contactForm.addEventListener("submit", function (e) {
